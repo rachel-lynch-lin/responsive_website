@@ -1,4 +1,28 @@
-.heading {
-  background: green;
-  color: red;
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Cubano-Regular";
+  /* Photo by Nahil Naseer on Unsplash */
+  /* background: url("../img/nahil-naseer-557390-unsplash.jpg") center center; */
+  /* Photo by NordWood Themes on Unsplash */
+  /* background: url("../img/nordwood-themes-524102-unsplash.jpg") center center; */
+  background: url("../img/pattern.jpg") center center;
+}
+
+/* FONT FACES */
+@font-face {
+  font-family: "Cubano-Regular";
+  src: local("Cubano-Regular.otf"), url("Cubano-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: local("Nunito-Regular.ttf"), url("Nunito-Regular.ttf") format("truetype");
+}
+
+#cover {
+  height: 100%;
+  background: url("../img/trees.jpg") center;
+  background-size: cover;
 }
