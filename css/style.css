@@ -106,3 +106,43 @@ body {
   transition: 0.5s;
 }
 
+/* SECTION FEATURES */
+.section-features {
+  padding: 20rem 0;
+  background: url("../img/pattern.jpg") center center;
+}
+
+.section-features h2,
+.section-features p {
+  text-align: center;
+}
+
+
+
+.square {
+  text-align: center;
+}
+
+.square i {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  transition: 0.3s; 
+}
+
+.square i:hover {
+  color: rgba(19, 128, 36, 1);
+  transition: 0.3s; 
+}
+
+.square p {
+  padding-top: 1rem;
+  font-family: "Nunito-Regular";
+  font-size: 1.2rem;
+}
+
+.green-hr {
+  border-top: 1px solid rgba(19, 128, 36, 1);
+  width: 150px;
+  background-color: rgba(19, 128, 36, 1);
+}
