@@ -1,3 +1,7 @@
+/* Colors
+rgba(19, 128, 36, 1);
+*/
+
 html,
 body {
   height: 100%;
@@ -246,4 +250,40 @@ body {
   padding: 140px 0px;
   background-size: cover;
   color: white;
+}
+
+/* SECTION CARDS */
+#section-cards h2 {
+  text-align: center;
+}
+
+#section-cards {
+  padding: 5rem 0;
+}
+
+.card {
+  margin-top: 3rem;
+}
+
+.card-block {
+  margin: 1rem;
+}
+
+.card a {
+  color: rgba(19, 128, 26, 0.6);
+}
+
+.card a:hover {
+  color: rgba(19, 128, 26, 1);
+}
+
+.card img {
+  height: 180px;
+  width: 100%;
+  transition: 1s;
+}
+
+.card img:hover {
+  transform: scale(0.98);
+  transition: 1s;
 }
