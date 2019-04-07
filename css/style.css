@@ -78,6 +78,11 @@ body {
   transition: 0.3s;
 }
 
+.parallax-btn {
+  width: 200px;
+  margin: 30px auto 0 auto;
+}
+
 /* SPANS */
 .bold-green {
   color:  rgba(19, 128, 36, 0.9);;
@@ -231,4 +236,14 @@ body {
 
 .far.fa-clock {
   padding-right: 3px;
+}
+
+/* SECTION PARALLAX */
+
+#section-parallax {
+  text-align: center;
+  background: url(../img/trees.jpg) center repeat fixed;
+  padding: 140px 0px;
+  background-size: cover;
+  color: white;
 }
