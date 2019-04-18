@@ -326,3 +326,43 @@ body {
 .num-content p {
   padding-top: 10px;
 }
+
+/* SECTION TESTIMONIALS */
+
+.section-testimonials {
+  padding-top: 5rem;
+}
+
+.testimonials {
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.person4-img,  
+.person6-img, 
+.person9-img {
+  width: 115px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.person4-img:hover,  
+.person6-img:hover, 
+.person9-img:hover {
+  transition: 0.5s;
+  transform: scale(0.925);
+}
+
+blockquote {
+  font-family: 'Nunito-Regular';
+}
+
+.fas.fa-quote-right {
+  margin-right: 10px;
+}
+
+testimonials-hr {
+  border-top: 1px solid rgba(19, 128, 36, 1);
+  width: 260px;
+  background-color: rgba(19, 128, 36, 1);
+}
