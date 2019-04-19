@@ -366,3 +366,45 @@ testimonials-hr {
   width: 260px;
   background-color: rgba(19, 128, 36, 1);
 }
+
+/* SECTION CONTACT */
+
+.section-contact {
+  background-color: white;
+  padding: 10rem 0 ;
+}
+
+#contact .col-form-label {
+  font-size: 15px;
+  line-height: 80%;
+  margin-top: 5px;
+}
+
+.form-control {
+  font-size: 16px;
+}
+
+.form-horizontal {
+  padding-top: 5rem;
+}
+
+.form-control:focus {
+  border-color: rgba(19, 128, 36, 0.54) !important;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(231, 76, 60, 0.05) !important;
+}
+
+#contact .btn.btn-success {
+  background-color: rgba(19, 128, 36, 1);
+  border: 1px solid rgba(19, 128, 36, 1);
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 5rem;
+  transition: 0.5s;
+}
+
+#contact .btn.btn-success:hover {
+  background-color: rgba(19, 128, 36, 0.85);
+  border: 1px solid rgba(19, 128, 36, 1);
+  transition: 0.5s;
+}
