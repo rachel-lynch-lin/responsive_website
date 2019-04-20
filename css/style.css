@@ -482,3 +482,125 @@ footer p {
   color: rgba(14, 96, 27, 0.85);
   transition: 0.2s;
 }
+
+/* ANIMATIONS */
+
+.js-wp-1,
+.js-wp-2,
+.js-wp-3,
+.js-wp-4 {
+  opacity: 0;
+}
+
+.js-wp-1.waypoint,
+.js-wp-2.waypoint,
+.js-wp-3.waypoint,
+.js-wp-4.waypoint {
+  opacity: 1;
+}
+.js-wp-2,
+.js-wp-4 {
+  animation-delay: 0.7s;
+}
+
+.js-wp-3 {
+  animation-delay: 1.4s;
+}
+
+.js-wp-timeline-title {
+  opacity: 0;
+}
+
+.js-wp-timeline-circles {
+  opacity: 0;
+  animation-delay: 0.3s;
+}
+.js-wp-timeline-panel-left {
+  opacity: 0;
+  animation-delay: 0.8s;
+}
+
+.js-wp-timeline-panel-right {
+  opacity: 0;
+  animation-delay: 1.2s;
+}
+
+.js-wp-timeline-title.waypoint,
+.js-wp-timeline-circles.waypoint,
+.js-wp-timeline-panel-left.waypoint,
+.js-wp-timeline-panel-right.waypoint {
+  opacity: 1;
+}
+
+.js-wp-parallax {
+  opacity: 0.9;
+  animation-delay: 0.3s;
+}
+
+.js-wp-parallax.waypoint {
+  opacity: 0;
+}
+
+.js-wp-cards-title {
+  animation-duration: 1.5s;
+}
+
+.js-wp-card-left {
+  animation-delay: 0.3s;
+}
+
+.js-wp-card-middle {
+  animation-delay: 0.9s;
+}
+
+.js-wp-card-right {
+  animation-delay: 0.6s;
+}
+
+.js-wp-numbers-title {
+  animation-duration: 2s; 
+}
+
+.js-wp-numbers-4 {
+  animation-delay: 0.3s; 
+}
+
+.js-wp-numbers-3 {
+  animation-delay: 0.6s; 
+}
+
+.js-wp-numbers-2 {
+  animation-delay: 0.9s; 
+}
+
+.js-wp-numbers-1 {
+  animation-delay: 1.3s; 
+}
+
+.js-wp-testimonials-title {
+  animation-delay: 0.2s;
+}
+
+.js-wp-testimonial-img1 {
+  animation-delay: 0.2s;
+}
+
+.js-wp-testimonial-1 {
+  animation-delay: 0.4s;
+}
+
+.js-wp-testimonial-img2 {
+  animation-delay: 0.7s;
+}
+
+.js-wp-testimonial-2 {
+  animation-delay: 1s;
+}
+
+.js-wp-testimonial-img3 {
+  animation-delay: 1.3s;
+}
+
+.js-wp-testimonial-3 {
+  animation-delay: 1.6s;
+}
