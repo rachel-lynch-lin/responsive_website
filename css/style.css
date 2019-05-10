@@ -439,7 +439,6 @@ footer {
   text-decoration: none;
   border: 0;
   color: #888;
-  font-size: 120%;
   transition: 0.2s;
 }
 
@@ -603,4 +602,181 @@ footer p {
 
 .js-wp-testimonial-3 {
   animation-delay: 1.6s;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1920px) {
+  
+  .wall-sticker {
+    font-size: 5rem;
+    padding: 16rem 20rem 10rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+
+  .fa-facebook-square,
+  .fa-google-plus-square,
+  .fa-twitter-square,
+  .fa-instagram {
+    font-size: 39px;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+
+  .fa-facebook-square,
+  .fa-google-plus-square,
+  .fa-twitter-square,
+  .fa-instagram {
+    font-size: 20px;
+  }
+
+  .fa-arrow-down {
+    position: absolute;
+    right: 235px;;
+  }
+
+  .social-links {
+    padding: 0 0 0 35px;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+  
+  .navbar {
+    font-size: 
+  }
+
+  .person4-img,  
+  .person6-img, 
+  .person9-img {
+    width: 95px;
+    height: 95px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+ .navbar {
+    font-size: 15px;
+  }
+
+  .fa-arrow-down {
+    position: absolute;
+    right: 200px;;
+  }
+
+  .person4-img,  
+  .person6-img, 
+  .person9-img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .testimonials-hr {
+    width: 200px;
+  }
+
+  .social-links {
+    padding: 0 0 0 30px;
+  }
+
+}
+
+@media only screen and (max-width: 995px) {
+
+  .moto {
+    font-size: 2.2rem;
+  }
+
+  .fa-arrow-down {
+    position: absolute;
+    right: 100px;;
+  }
+
+  .num {
+    padding: 50px 0;
+    margin-left: 50px;
+  }
+
+  .num-content {
+    font-size: 16px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .person4-img,  
+  .person6-img, 
+  .person9-img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .testimonials-hr {
+    width: 130px;
+  }
+
+  .social-links {
+    padding: 0 0 0 25px;
+  }
+
+
+}
+
+@media only screen and (max-width: 775px) {
+
+  .moto {
+    display: none;
+  }
+
+  .fa-arrow-down {
+    position: absolute;
+    right: 40px;
+    top: 350px;
+  }
+
+  .num {
+    padding: 25px 0;
+    margin-left: 10px;
+  }
+
+  .num-content {
+    font-size: 14px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .person4-img,  
+  .person6-img, 
+  .person9-img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .testimonials-hr {
+    width: 90px;
+  }
+
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-right: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 560px) {
+
+  .testimonials {
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .num {
+    padding: 15px 0;
+    justify-content: center;
+  }
 }
